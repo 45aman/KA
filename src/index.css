@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+  font-family: 'Mulish', sans-serif;
+  font-size: x-large !important;
+}
+
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.mt-n1 {
+  margin-top: -4rem !important;
+}
+
+.navbar-brand {
+  font-size: large !important;
+  font-weight: 500 !important;
+
+   font-size: 25px !important;
+  color: #565387 !important;
+}
+.nav-link{
+  font-size: 20px !important;
+  text-transform: capitalize !important;
+
+}
+
+
+.menu_active{
+  font-size: bold !important;
+  border-bottom: 1px solid #565387;
+}
+
+.nav-link:hover {
+  color: #3498db !important ;
+}
+
+.icon-link{
+  color: #3498db !important ;
+  size: 4x !important ;
+  margin-left: 20px;
+}
+
+
+.btn-default {
+  font-size: 13px !important;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: rgba(108, 88, 179, 0.75) !important;
+  border: 2px solid rgba(108, 89, 179, 0.75) !important;
+}
+
+
+.icon {
+  size: 5rem !important;
+}
+
+#header h1 {
+  margin: 0 0 15px 0;
+  font-size: 48px !important;
+  font-weight: 700;
+
+}
+
+#header .brand-name{
+  color: #3498db;
+  font-size: 48px !important;
+
+}
+
+#header h3{
+  color: #484848;
+  font-size: 24px !important;
+  font-weight: 400;
+}
+
+#header .animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transition: translateY(30px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes up-down {
+  0%{
+    transition: translateY(30px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+
+.item{
+  color: #3498db;
+}
